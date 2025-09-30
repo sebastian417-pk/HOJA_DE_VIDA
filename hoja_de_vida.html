@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hoja de vida - Sebastián Bejarano Suta</title>
+  <meta name="description" content="Hoja de vida de Sebastián Bejarano Suta — técnico electromecánico y emprendedor.">
+  <style>
+    :root{
+      --accent:#0b5dd7;
+      --muted:#6b7280;
+      --bg:#f7fafc;
+      --card:#ffffff;
+      font-family: Inter, Roboto, Helvetica, Arial, sans-serif;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:#111}
+    .container{max-width:900px;margin:32px auto;padding:20px}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:110px;height:110px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:28px}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{margin:4px 0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr 300px;gap:20px;margin-top:18px}
+    main{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+    aside{background:transparent;padding:18px}
+    section{margin-bottom:18px}
+    section h2{margin:0 0 8px 0;font-size:1.05rem;color:var(--accent)}
+    .small{color:var(--muted);font-size:0.95rem}
+    .list{list-style:none;padding:0;margin:0}
+    .list li{padding:8px 0;border-bottom:1px solid #eef2f7}
+    .skill{display:inline-block;background:#eef6ff;padding:6px 8px;border-radius:999px;margin:4px 6px 0 0;font-size:0.9rem}
+    .experience .item{padding:10px 0}
+    .item h3{margin:0;font-size:1rem}
+    .item .meta{font-size:0.9rem;color:var(--muted)}
+    .contact a{display:block;color:var(--accent);text-decoration:none;margin-bottom:6px}
+    footer{text-align:center;margin-top:18px;color:var(--muted);font-size:0.9rem}
+    @media (max-width:900px){
+      .grid{grid-template-columns:1fr;}
+      aside{order:2}
+      main{order:1}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">SB</div>
+      <div>
+        <h1>Sebastián Bejarano Suta</h1>
+        <p class="lead">Técnico electromecánico • Emprendedor en servicios técnicos y accesorios para motos</p>
+        <p class="small">Especializado en mantenimiento y reparación de maquinaria electromanual (Makita, Bosch, Dewalt) y equipos agrícolas. Diplomado en Programación Java. Experiencia en integración tecnológica con la electromecánica para mejorar procesos.</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section aria-labelledby="perfil">
+          <h2 id="perfil">Perfil profesional</h2>
+          <p class="small">Soy técnico electromecánico con experiencia en reparación de maquinaria electromanual y equipos agrícolas. Mi formación en programación Java me ha permitido integrar soluciones tecnológicas con la mecánica para optimizar equipos. Actualmente manejo un emprendimiento propio en venta de accesorios para motocicletas y brindo servicios técnicos a domicilio, desarrollando habilidades en gestión, atención al cliente y soluciones innovadoras.</p>
+        </section>
+
+        <section aria-labelledby="experiencia" class="experience">
+          <h2 id="experiencia">Experiencia</h2>
+
+          <article class="item" aria-labelledby="exp1">
+            <h3 id="exp1">FB Servicios Técnicos — Técnico electromecánico (Línea maquinaria electromanual)</h3>
+            <div class="meta">Febrero 2019 – Actual | Técnico-mecánica, ventas y comercial</div>
+            <p class="small">Mantenimiento, diagnóstico y reparación de maquinaria electromanual. Gestión de clientes y ventas de repuestos.</p>
+            <p class="small"><strong>Referencia:</strong> Alejandra Guevara — 3102616591</p>
+          </article>
+
+          <article class="item" aria-labelledby="exp2">
+            <h3 id="exp2">FB Servicios Técnicos — Técnico electromecánico (Línea maquinaria a gasolina)</h3>
+            <div class="meta">Febrero 2021 – Actual | Técnico-mecánica, ventas y comercial</div>
+            <p class="small">Reparación y mantenimiento de motosierras, guadañas, plantas eléctricas y sopladoras.</p>
+            <p class="small"><strong>Referencia:</strong> Alejandra Guevara — 3102616591</p>
+          </article>
+
+          <article class="item" aria-labelledby="exp3">
+            <h3 id="exp3">Steel Wheel (Empresa personal) — Ventas de accesorios para motocicletas</h3>
+            <div class="meta">Enero 2021 – Actual | Ventas</div>
+            <p class="small">Emprendimiento personal enfocado en comercialización de accesorios para motocicletas. Gestión de clientes y atención personalizada.</p>
+            <p class="small"><strong>Referencia:</strong> Gabriela Fonseca — 3150174030</p>
+          </article>
+        </section>
+
+        <section aria-labelledby="educacion">
+          <h2 id="educacion">Formación académica</h2>
+          <ul class="list">
+            <li>
+              <strong>Diplomado en Programación Java</strong> — Politécnico de Colombia, 2024
+            </li>
+            <li>
+              <strong>Bachiller</strong> — Colegio Militar Antonio Nariño, 2019
+            </li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="formacion-comp">
+          <h2 id="formacion-comp">Formación complementaria</h2>
+          <ul class="list">
+            <li>Diagnóstico y reparación de rotomartillos y demoledores — Makita Colombia, 2022</li>
+            <li>Bosch PowerTech Repair — Bosch Colombia, 2022</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="habilidades">
+          <h2 id="habilidades">Habilidades</h2>
+          <div>
+            <span class="skill">Mantenimiento electromecánico</span>
+            <span class="skill">Reparación maquinaria electromanual</span>
+            <span class="skill">Reparación equipos agrícolas</span>
+            <span class="skill">Programación Java</span>
+            <span class="skill">Atención al cliente</span>
+            <span class="skill">Gestión de ventas</span>
+          </div>
+        </section>
+      </main>
+
+      <aside>
+        <section aria-labelledby="contacto" class="contact">
+          <h2 id="contacto">Contacto</h2>
+          <a href="tel:+573232301849">3232301849</a>
+          <a href="mailto:Sebasbejaranos417@gmail.com">Sebasbejaranos417@gmail.com</a>
+          <p class="small">Calle 156 B Nº 96-74, Bogotá, Colombia</p>
+        </section>
+      </aside>
+    </div>
+
+    <footer>
+      <p>Hoja de vida de Sebastián Bejarano Suta — 2025</p>
+    </footer>
+  </div>
+</body>
+</html>
